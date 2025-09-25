@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #00bde6;
+    align-items: center;
+    padding: 10px;
+    }
+.item{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    
+}
+.first{
+    margin-right: auto;
+}
+.about{
+display: flex;
+justify-content:space-between;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.aboutOne{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+.video{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.par{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00bde6;
+    margin: 10px;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    }
+.sea{
+    display: flex;
+    justify-content: space-evenly;
+    }
+
+.cta{
+    font-size: 28px;
+    background-color: #00bde6;
+    border:none;
+    }
+
+.ctaOne{
+    font-size: 28px;
+    background-color: white;
+    border:none;
+    }
+.header{
+    display: flex;
+    justify-content: space-around;
+    }
+
+.headerOne{
+    padding: 100px;
+    margin-top: 50px;
+    }
+.note{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.home{
+    display: flex;
+    justify-content: space-around;
+    border: none;
+    background-color: #00bde6;
+    padding: 60px;
+    }
+        
+a{
+    padding: 20px;
+    }
+
+h3, h2, p{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+h3, h2{
+    font-size: 25px;
+}
+.cap{
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+@media all and (max-width:1024px){
+
+.nav{
+        display:flex;
+        flex-direction: column;
+        font-size: 10px;
+    }
+.about{
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutOne{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+h3, h2{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+    }
+p{
+    
+    font-weight: bolder;
+    }
+a{
+    padding: 5px;
+    }
+.imgOne{
+    width: 500px;
+    align-self: center;
+}
+.sea{
+    display: flex;
+    flex-direction: column;
+    }
+.videoOne{
+    width: 500px;
+    align-self: center;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    }
+    .headerOne{
+        padding: 10px;
+        margin:auto;
+        }
+}
